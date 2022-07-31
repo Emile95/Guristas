@@ -1,0 +1,3 @@
+[submodule "Guristas/vendor/spdlog"]
+	path = Guristas/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git
