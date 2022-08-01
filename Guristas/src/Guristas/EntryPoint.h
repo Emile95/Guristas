@@ -17,5 +17,5 @@ int main(int argc, char** argv)
 }
 
 #else
-	#error Guristas inly support Windows!
+	#error Guristas only support Windows!
 #endif

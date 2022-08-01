@@ -7,5 +7,5 @@
 		#define GURISTAS_API __declspec(dllimport)
 	#endif
 #else
-	#error Guristas inly support Windows!
+	#error Guristas only support Windows!
 #endif
