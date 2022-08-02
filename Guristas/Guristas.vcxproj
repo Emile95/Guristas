@@ -144,14 +144,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="src\Guristas.h" />
-    <ClInclude Include="src\Guristas\Application.h" />
-    <ClInclude Include="src\Guristas\Core.h" />
-    <ClInclude Include="src\Guristas\EntryPoint.h" />
-    <ClInclude Include="src\Guristas\Logger.h" />
+    <ClInclude Include="src\Guristas\Core\Application.h" />
+    <ClInclude Include="src\Guristas\Core\Core.h" />
+    <ClInclude Include="src\Guristas\Core\EntryPoint.h" />
+    <ClInclude Include="src\Guristas\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\Guristas\Events\KeyEvent.h" />
+    <ClInclude Include="src\Guristas\Core\Logger.h" />
+    <ClInclude Include="src\Guristas\Events\Events.h" />
+    <ClInclude Include="src\Guristas\Events\KeyEnvent.h" />
+    <ClInclude Include="src\Guristas\Events\MouseEvent.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Guristas\Application.cpp" />
-    <ClCompile Include="src\Guristas\Logger.cpp" />
+    <ClCompile Include="src\Guristas\Core\Application.cpp" />
+    <ClCompile Include="src\Guristas\Core\Logger.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
