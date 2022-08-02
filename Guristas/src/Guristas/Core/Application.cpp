@@ -1,3 +1,4 @@
+#include "Guristaspch.h"
 #include "Application.h"
 
 namespace Guristas

@@ -4,33 +4,48 @@
     <Filter Include="Guristas">
       <UniqueIdentifier>{3747EC41-2314-474D-4C2D-35F538597CDB}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Guristas\Core">
+      <UniqueIdentifier>{EF857577-5B46-F1AD-2481-3A2B9000368A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guristas\Events">
+      <UniqueIdentifier>{3BCF1030-A75A-7EF4-B06B-01E91C76DAF4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Guristas.h" />
     <ClInclude Include="src\Guristas\Core\Application.h">
-      <Filter>Guristas</Filter>
+      <Filter>Guristas\Core</Filter>
     </ClInclude>
     <ClInclude Include="src\Guristas\Core\Core.h">
-      <Filter>Guristas</Filter>
+      <Filter>Guristas\Core</Filter>
     </ClInclude>
     <ClInclude Include="src\Guristas\Core\EntryPoint.h">
-      <Filter>Guristas</Filter>
+      <Filter>Guristas\Core</Filter>
     </ClInclude>
     <ClInclude Include="src\Guristas\Core\Logger.h">
-      <Filter>Guristas</Filter>
+      <Filter>Guristas\Core</Filter>
     </ClInclude>
-    <ClInclude Include="src\Guristas\Events\Events.h" />
-    <ClInclude Include="src\Guristas\Events\KeyEnvent.h" />
-    <ClInclude Include="src\Guristas\Events\KeyEvent.h" />
-    <ClInclude Include="src\Guristas\Events\MouseEvent.h" />
-    <ClInclude Include="src\Guristas\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\Guristas\Events\ApplicationEvent.h">
+      <Filter>Guristas\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Guristas\Events\Events.h">
+      <Filter>Guristas\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Guristas\Events\KeyEvent.h">
+      <Filter>Guristas\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Guristas\Events\MouseEvent.h">
+      <Filter>Guristas\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Guristaspch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Guristas\Core\Application.cpp">
-      <Filter>Guristas</Filter>
+      <Filter>Guristas\Core</Filter>
     </ClCompile>
     <ClCompile Include="src\Guristas\Core\Logger.cpp">
-      <Filter>Guristas</Filter>
+      <Filter>Guristas\Core</Filter>
     </ClCompile>
+    <ClCompile Include="src\Guristaspch.cpp" />
   </ItemGroup>
 </Project>

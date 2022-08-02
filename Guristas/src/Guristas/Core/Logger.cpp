@@ -1,3 +1,4 @@
+#include "Guristaspch.h"
 #include "Logger.h"
 
 namespace Guristas
