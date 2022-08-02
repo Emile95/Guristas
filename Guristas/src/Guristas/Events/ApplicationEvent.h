@@ -13,14 +13,14 @@ namespace Guristas
 	{
 	public:
 		WindowResizeEvent(unsigned int width, unsigned int height)
-			: m_Width(width), m_Height(height) {}
+			: _width(width), _height(height) {}
 
-		unsigned int GetWidth() const { return m_Width; }
-		unsigned int GetHeight() const { return m_Height; }
+		unsigned int GetWidth() const { return _width; }
+		unsigned int GetHeight() const { return _height; }
 
 		EVENT_CLASS_TYPE(WindowResize)
 	private:
-		unsigned int m_Width, m_Height;
+		unsigned int _width, _height;
 	};
 
 	class WindowCloseEvent : public WindowEvent
